@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejelentkezés - Carego</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <a href="/" class="home-link">Vissza a főoldalra</a>
+        <h1>Bejelentkezés</h1>
+        <p>Jelentkezzen be a fiókjába a folytatáshoz.</p>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="email">Email cím</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Jelszó</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="submit-btn">Bejelentkezés</button>
+        </form>
+        <div class="switch-form">
+            <p>Nincs még fiókja? <a href="register.html">Regisztráljon!</a></p>
+        </div>
+    </div>
+</body>
+</html>

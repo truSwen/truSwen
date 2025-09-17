@@ -1,0 +1,100 @@
+/* --- Alapbeállítások és Változók --- */
+:root {
+    --primary-color: #003366; /* Sötétkék */
+    --secondary-color: #D4AF37; /* Arany / Sárga akcentus */
+    --text-color: #333;
+    --light-gray: #f4f4f4;
+    --white: #ffffff;
+    --font-main: 'Arial', sans-serif;
+    --cta-color: #C06014;
+    --cta-hover-color: #A55311;
+}
+
+body {
+    font-family: var(--font-main);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: var(--font-main);
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cta-color);
+    color: var(--white);
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: var(--cta-hover-color);
+}
+
+.home-link {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.switch-form {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.switch-form a {
+    color: var(--cta-color);
+    font-weight: bold;
+}

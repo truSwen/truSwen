@@ -9,7 +9,7 @@ I define the requirements, system boundaries and acceptance criteria, direct AI 
 ## What I work on
 
 - **Prototypes and internal tools:** from a loosely defined business problem to a scoped, testable result with a clear handoff.
-- **Automation and integration:** workflows across APIs and MCP tools, using Make and code-based components built with AI agents.
+- **Automation and integration:** workflows across APIs and MCP tools, using Make, n8n and code-based components built with AI agents.
 - **Agent workflows:** task scoping, isolated work areas, approval gates, review steps and failure handling.
 - **Quality and cost control:** acceptance tests, evaluation metrics, explicit unknown states and usage-cost tracking.
 
@@ -36,7 +36,7 @@ These are my own Tribloc projects. The descriptions separate what is implemented
 
 ## Tools I work with
 
-Claude Code · OpenAI Codex · Make · GitHub · MCP, plus AI-assisted work with Python, TypeScript, Cloudflare and Supabase.
+Claude Code · OpenAI Codex · Make · n8n · GitHub · MCP, plus AI-assisted work with Python, TypeScript, Cloudflare and Supabase.
 
 ## Working approach
 

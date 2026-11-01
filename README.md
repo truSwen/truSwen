@@ -36,7 +36,7 @@ These are my own Tribloc projects. The descriptions separate what is implemented
 
 ## Tools I work with
 
-Claude Code · OpenAI Codex · Make · n8n · GitHub · MCP, plus AI-assisted work with Python, TypeScript, Cloudflare and Supabase.
+Claude Code · OpenAI Codex · Make · n8n · Hatchet · GitHub · MCP, plus AI-assisted work with Python, TypeScript, Cloudflare and Supabase.
 
 ## Working approach
 
